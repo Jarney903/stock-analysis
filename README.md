@@ -72,30 +72,29 @@
 <br />
 
 ### Figure 1: Runtime for 2017 Data
-![2017]()
+![2017](https://github.com/Jarney903/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 <br />
 
 ### Figure 2: Runtime for 2018 Data
-![2018]()
+![2018](https://github.com/Jarney903/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 
 ## Summary
 
-- The advantages and disadvantages of refactoring code in general?
-#### The general advantages of refactored code are that it allows code to be more efficient, easily read, adaptive to alterations, and generally cleaner and more organized. 
+### The advantages and disadvantages of refactoring code in general?
+* #### The general advantages of refactored code are that it allows code to be more efficient, easily read, adaptive to alterations, and generally cleaner and more organized. 
+
+* #### The general disadvantages are that it takes time to refactor code. This time can correlate to more money spent on a code that at the end of the refactoring process, will provide no additional functionality.  
 <br />
 
-#### The general disadvantages are that it takes time to refactor code. This time can correlate to more money spent on a code that at the end of the refactoring process, will provide no additional functionality.  
-<br />
-
-## The advantages and disadvantages of the original and refactored VBA script?
+### The advantages and disadvantages of the original and refactored VBA script?
 #### The advantages of the refactored code, when compared to the original VBA script are as follows:
 
-* ####    Cleaner and organized
+* ####    Cleaner and more organized
 * ####    More efficient run time (improved on average 1/10th of a second)
  <br />
 
-## The advantages and disadvantages of the original and refactored VBA script?
+### The advantages and disadvantages of the original and refactored VBA script?
 #### The disadvantages of the refactored code, when compared to the original VBA script are as follows:
 
 * #### Using the index for filtering through the stock ticker is dependent on the tickers being in the same order as the tickers() array. If the raw data ticker’s order did not match the tickers() array order, a simple tickerIndex = tickerIndex + 1 (as seen on ‘3d of the attached code) would not correctly corelate to the proper ticker. If the number of stocks were such that a manually ordered list of tickers would be impractical to produce, the original method would be advantageous. 
